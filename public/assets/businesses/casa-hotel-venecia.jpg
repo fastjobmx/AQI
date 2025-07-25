@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f0f4f8"/>
+  <rect x="100" y="100" width="600" height="400" rx="20" fill="#3b82f6" opacity="0.8"/>
+  <text x="400" y="300" font-family="Arial" font-size="48" font-weight="bold" text-anchor="middle" fill="white">Casa Hotel Venecia</text>
+  <text x="400" y="350" font-family="Arial" font-size="24" text-anchor="middle" fill="white">Hotel boutique con encanto colonial</text>
+  <rect x="300" y="400" width="200" height="50" rx="10" fill="#fbbf24"/>
+  <text x="400" y="435" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="white">PREMIUM</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f0f4f8"/>
+  <rect x="100" y="100" width="600" height="400" rx="20" fill="#10b981" opacity="0.8"/>
+  <text x="400" y="300" font-family="Arial" font-size="48" font-weight="bold" text-anchor="middle" fill="white">Soccer Star</text>
+  <text x="400" y="350" font-family="Arial" font-size="24" text-anchor="middle" fill="white">Equipamiento deportivo profesional</text>
+  <circle cx="400" cy="180" r="50" fill="white" opacity="0.5"/>
+  <path d="M400,130 L400,230 M350,180 L450,180" stroke="#10b981" stroke-width="5" opacity="0.7"/>
+  <path d="M370,150 L430,210 M370,210 L430,150" stroke="#10b981" stroke-width="5" opacity="0.7"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f0f4f8"/>
+  <rect x="100" y="100" width="600" height="400" rx="20" fill="#f59e0b" opacity="0.8"/>
+  <text x="400" y="300" font-family="Arial" font-size="48" font-weight="bold" text-anchor="middle" fill="white">Mundo Sorpresa</text>
+  <text x="400" y="350" font-family="Arial" font-size="24" text-anchor="middle" fill="white">Entretenimiento y eventos especiales</text>
+  <circle cx="350" cy="180" r="30" fill="white" opacity="0.5"/>
+  <circle cx="450" cy="180" r="30" fill="white" opacity="0.5"/>
+  <path d="M350,180 Q400,230 450,180" stroke="white" stroke-width="5" fill="none" opacity="0.7"/>
+  <circle cx="350" cy="170" r="10" fill="#f59e0b" opacity="0.7"/>
+  <circle cx="450" cy="170" r="10" fill="#f59e0b" opacity="0.7"/>
+</svg>

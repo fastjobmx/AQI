@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f0f4f8"/>
+  <rect x="100" y="100" width="600" height="400" rx="20" fill="#4f46e5" opacity="0.8"/>
+  <text x="400" y="300" font-family="Arial" font-size="48" font-weight="bold" text-anchor="middle" fill="white">La Casona</text>
+  <text x="400" y="350" font-family="Arial" font-size="24" text-anchor="middle" fill="white">Propiedades y bienes raíces premium</text>
+  <polygon points="400,150 450,200 400,250 350,200" fill="white" opacity="0.6"/>
+  <rect x="375" y="250" width="50" height="50" fill="white" opacity="0.6"/>
+</svg>

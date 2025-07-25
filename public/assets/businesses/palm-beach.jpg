@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f0f4f8"/>
+  <rect x="100" y="100" width="600" height="400" rx="20" fill="#f59e0b" opacity="0.8"/>
+  <text x="400" y="300" font-family="Arial" font-size="48" font-weight="bold" text-anchor="middle" fill="white">Palm Beach</text>
+  <text x="400" y="350" font-family="Arial" font-size="24" text-anchor="middle" fill="white">Club y entretenimiento nocturno</text>
+  <path d="M400,150 L400,230" stroke="white" stroke-width="10" opacity="0.5"/>
+  <path d="M380,160 Q400,130 420,160" stroke="white" stroke-width="5" fill="none" opacity="0.7"/>
+  <path d="M370,180 Q400,150 430,180" stroke="white" stroke-width="5" fill="none" opacity="0.7"/>
+  <path d="M360,200 Q400,170 440,200" stroke="white" stroke-width="5" fill="none" opacity="0.7"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f0f4f8"/>
+  <rect x="100" y="100" width="600" height="400" rx="20" fill="#059669" opacity="0.8"/>
+  <text x="400" y="300" font-family="Arial" font-size="48" font-weight="bold" text-anchor="middle" fill="white">Venturs</text>
+  <text x="400" y="350" font-family="Arial" font-size="24" text-anchor="middle" fill="white">Aventuras y experiencias turísticas</text>
+  <polygon points="350,150 450,150 450,200 400,230 350,200" fill="white" opacity="0.5"/>
+  <path d="M375,170 L425,170 M375,190 L425,190" stroke="#059669" stroke-width="5" opacity="0.7"/>
+</svg>

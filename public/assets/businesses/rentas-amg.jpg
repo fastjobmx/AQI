@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f0f4f8"/>
+  <rect x="100" y="100" width="600" height="400" rx="20" fill="#ef4444" opacity="0.8"/>
+  <text x="400" y="300" font-family="Arial" font-size="48" font-weight="bold" text-anchor="middle" fill="white">Rentas AMG</text>
+  <text x="400" y="350" font-family="Arial" font-size="24" text-anchor="middle" fill="white">Alquiler de vehículos premium</text>
+  <rect x="250" y="180" width="300" height="80" rx="10" fill="white" opacity="0.5"/>
+  <circle cx="300" cy="260" r="20" fill="white" opacity="0.5"/>
+  <circle cx="500" cy="260" r="20" fill="white" opacity="0.5"/>
+</svg>

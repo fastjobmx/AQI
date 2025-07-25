@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f0f4f8"/>
+  <rect x="100" y="100" width="600" height="400" rx="20" fill="#ef4444" opacity="0.8"/>
+  <text x="400" y="300" font-family="Arial" font-size="48" font-weight="bold" text-anchor="middle" fill="white">Buenos Aires Coffee</text>
+  <text x="400" y="350" font-family="Arial" font-size="24" text-anchor="middle" fill="white">Café gourmet y experiencias gastronómicas</text>
+  <path d="M350,150 Q400,130 450,150 L450,200 Q400,220 350,200 Z" fill="white" opacity="0.5"/>
+  <path d="M450,160 Q470,170 470,190 L450,190" stroke="white" stroke-width="5" fill="none" opacity="0.7"/>
+  <path d="M380,170 Q400,160 420,170" stroke="#ef4444" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M380,180 Q400,170 420,180" stroke="#ef4444" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M380,190 Q400,180 420,190" stroke="#ef4444" stroke-width="3" fill="none" opacity="0.7"/>
+</svg>
