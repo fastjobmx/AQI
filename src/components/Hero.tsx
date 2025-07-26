@@ -355,7 +355,7 @@ const Hero = () => {
                   <div className="flex items-center justify-center gap-2 sm:gap-4 md:gap-6 mt-2 sm:mt-4 flex-wrap">
                     <div className="flex items-center gap-1 sm:gap-2">
                       <div className="w-2 h-2 sm:w-3 sm:h-3 bg-gradient-to-r from-green-400 to-emerald-400 rounded-full animate-pulse"></div>
-                      <span className="text-xs sm:text-sm font-bold text-white/90 tracking-wide">MEDELLÍN DIGITAL</span>
+                      <span className="text-xs sm:text-sm font-bold text-white/90 tracking-wide">COLOMBIA DIGITAL</span>
                     </div>
                     <div className="flex items-center gap-1 sm:gap-2">
                       <div className="w-2 h-2 sm:w-3 sm:h-3 bg-gradient-to-r from-cyan-400 to-blue-400 rounded-full animate-pulse" style={{ animationDelay: '0.7s' }}></div>
@@ -475,9 +475,9 @@ const Hero = () => {
               <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white/80 font-semibold">Comercio Digital · Salud Online · Experiencias Premium</p>
             </div>
             
-            <div className="flex flex-col lg:flex-row gap-6 sm:gap-12 justify-center items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-12 justify-center items-center mb-12">
               {/* Tu Guía de Turismo */}
-              <div className="group relative w-full max-w-md">
+              <div className="group relative w-full max-w-md mx-auto">
                 <div className="absolute inset-0 bg-gradient-to-r from-green-500/40 to-emerald-500/40 rounded-2xl sm:rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-700"></div>
                 <a href="https://tuguiadeturismo.com" target="_blank" rel="noopener noreferrer" className="relative bg-white/10 backdrop-blur-2xl p-6 sm:p-12 rounded-2xl sm:rounded-3xl border border-white/20 shadow-2xl hover:scale-105 transition-all duration-700 block">
                   <div className="text-center">
@@ -509,7 +509,7 @@ const Hero = () => {
               </div>
 
               {/* Profesionales Online */}
-              <div className="group relative w-full max-w-md">
+              <div className="group relative w-full max-w-md mx-auto">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-500/40 to-cyan-500/40 rounded-2xl sm:rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-700"></div>
                 <a href="https://www.profesionalesonline.com.co" target="_blank" rel="noopener noreferrer" className="relative bg-white/10 backdrop-blur-2xl p-6 sm:p-12 rounded-2xl sm:rounded-3xl border border-white/20 shadow-2xl hover:scale-105 transition-all duration-700 block">
                   <div className="text-center">
@@ -535,6 +535,73 @@ const Hero = () => {
                     <div className="bg-gradient-to-r from-blue-600/30 to-cyan-600/30 backdrop-blur-xl px-3 py-2 sm:px-6 sm:py-4 rounded-xl sm:rounded-2xl border border-blue-400/30">
                       <div className="text-sm sm:text-lg font-black text-blue-200 mb-1">¡OFERTA SALUD!</div>
                       <div className="text-xs sm:text-sm text-white/90 font-bold">40% OFF en plataformas médicas</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            
+            {/* Nueva sección: Descuentos Especiales */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-12 justify-center items-center mb-12">
+              {/* Descuentos Especiales - Para el Viaje */}
+              <div className="group relative w-full max-w-md mx-auto">
+                <div className="absolute inset-0 bg-gradient-to-r from-orange-500/40 to-red-500/40 rounded-2xl sm:rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-700"></div>
+                <a href="https://paraelviaje.tuguiadeturismo.com/" target="_blank" rel="noopener noreferrer" className="relative bg-white/10 backdrop-blur-2xl p-6 sm:p-12 rounded-2xl sm:rounded-3xl border border-white/20 shadow-2xl hover:scale-105 transition-all duration-700 block">
+                  <div className="text-center">
+                    <div className="absolute -top-3 -right-3 sm:-top-6 sm:-right-6 bg-gradient-to-r from-yellow-500 to-orange-500 text-white px-3 py-2 sm:px-6 sm:py-3 rounded-full text-xs sm:text-sm font-black shadow-2xl animate-pulse">
+                      <div className="flex items-center gap-1 sm:gap-2">
+                        <Gift className="w-3 h-3 sm:w-4 sm:h-4" />
+                        <span>ESPECIAL</span>
+                      </div>
+                    </div>
+                    
+                    <div className="relative mb-6 sm:mb-10">
+                      <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-orange-600 to-red-600 rounded-2xl flex items-center justify-center mx-auto shadow-2xl">
+                        <Camera className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
+                      </div>
+                      <div className="absolute -top-2 -right-2 sm:-top-4 sm:-right-4 w-6 h-6 sm:w-8 sm:h-8 bg-gradient-to-br from-yellow-400 to-amber-500 rounded-full flex items-center justify-center">
+                        <Star className="w-3 h-3 sm:w-4 sm:h-4 text-white" />
+                      </div>
+                    </div>
+                    <div className="text-xl sm:text-2xl md:text-3xl font-black text-white mb-2 sm:mb-4">Descuentos Especiales</div>
+                    <div className="text-base sm:text-lg md:text-xl text-orange-200 font-bold mb-2 sm:mb-4">Para el Viaje</div>
+                    <div className="text-sm sm:text-base text-white/80 font-semibold mb-4 sm:mb-6">Ofertas exclusivas en turismo, hoteles y experiencias únicas</div>
+                    
+                    <div className="bg-gradient-to-r from-orange-600/30 to-red-600/30 backdrop-blur-xl px-3 py-2 sm:px-6 sm:py-4 rounded-xl sm:rounded-2xl border border-orange-400/30">
+                      <div className="text-sm sm:text-lg font-black text-orange-200 mb-1">¡OFERTAS ÚNICAS!</div>
+                      <div className="text-xs sm:text-sm text-white/90 font-bold">Experiencias premium con descuento</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              {/* Cursos de Formación */}
+              <div className="group relative w-full max-w-md mx-auto">
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-500/40 to-indigo-500/40 rounded-2xl sm:rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-700"></div>
+                <a href="https://app.hugex.co/p/form/bgheRWMHHS4POqApBIqc2iWoIJC-eyt8bXiLrnyDUpVb1KmRWQ0WyshDBzDUo1QjTP0kE4XEDZJYSb05ArFgSQI_-8_2t5zNN7HpR4twY_GX8AOhLwwtqZmpNdACbD_5" target="_blank" rel="noopener noreferrer" className="relative bg-white/10 backdrop-blur-2xl p-6 sm:p-12 rounded-2xl sm:rounded-3xl border border-white/20 shadow-2xl hover:scale-105 transition-all duration-700 block">
+                  <div className="text-center">
+                    <div className="absolute -top-3 -right-3 sm:-top-6 sm:-right-6 bg-gradient-to-r from-indigo-500 to-purple-500 text-white px-3 py-2 sm:px-6 sm:py-3 rounded-full text-xs sm:text-sm font-black shadow-2xl animate-pulse">
+                      <div className="flex items-center gap-1 sm:gap-2">
+                        <BadgeCheck className="w-3 h-3 sm:w-4 sm:h-4" />
+                        <span>CERTIFICA</span>
+                      </div>
+                    </div>
+                    
+                    <div className="relative mb-6 sm:mb-10">
+                      <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-purple-600 to-indigo-600 rounded-2xl flex items-center justify-center mx-auto shadow-2xl">
+                        <Monitor className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
+                      </div>
+                      <div className="absolute -top-2 -right-2 sm:-top-4 sm:-right-4 w-6 h-6 sm:w-8 sm:h-8 bg-gradient-to-br from-yellow-400 to-amber-500 rounded-full flex items-center justify-center">
+                        <Trophy className="w-3 h-3 sm:w-4 sm:h-4 text-white" />
+                      </div>
+                    </div>
+                    <div className="text-xl sm:text-2xl md:text-3xl font-black text-white mb-2 sm:mb-4">Cursos de Formación</div>
+                    <div className="text-base sm:text-lg md:text-xl text-purple-200 font-bold mb-2 sm:mb-4">SENATIC</div>
+                    <div className="text-sm sm:text-base text-white/80 font-semibold mb-4 sm:mb-6">Capacítate con nuestros cursos especializados y certificaciones</div>
+                    
+                    <div className="bg-gradient-to-r from-purple-600/30 to-indigo-600/30 backdrop-blur-xl px-3 py-2 sm:px-6 sm:py-4 rounded-xl sm:rounded-2xl border border-purple-400/30">
+                      <div className="text-sm sm:text-lg font-black text-purple-200 mb-1">¡FORMACIÓN DIGITAL!</div>
+                      <div className="text-xs sm:text-sm text-white/90 font-bold">Certificaciones Google, Meta, Microsoft</div>
                     </div>
                   </div>
                 </a>
